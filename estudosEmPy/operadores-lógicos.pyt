@@ -32,18 +32,22 @@ else:
 
 print('___________________________________')
 
-idade = input('qual a sua idade: ')
-peso = input('qual o seu peso: ')
-altura = input('qual a sua altura: ')
+idade = 18
+peso = 59
+altura = 10
 
-if idade >'18':
-    print('você não pode entrar no exército!1')
-elif peso < '60':
-    print('você não pode entrar no exército!2')
-elif altura > '1,70':
-    print('você não pode entrar no exército!3')
+if idade <18:
+    print('você não pode entrar no exército novinha !')
+elif peso < 60:
+    print('você não pode entrar no exército porque você magro !')
+elif altura < 10:
+    print('você não pode entrar no exército porque voce é baixo!')
 else: 
     print('Parabábens Soldado!')
 
+semaforoFechado = False
 
- 
+if (semaforoFechado == True):
+    print("você foi atrpolelado")
+else:
+    print("você não foi atr")
